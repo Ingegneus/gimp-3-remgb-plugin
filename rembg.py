@@ -48,7 +48,7 @@ def remove_background(procedure, run_mode, image, drawables, config, run_data):
    
     # Initial setup and paths
     remove_tmp_file = True       # Whether to remove the temporary files after processing
-    output_message = True      # Whether to output debug messages
+    output_message = False      # Whether to output debug messages
     os_name = platform.system() # Detect the operating system
     export_sep = os.sep         # OS-specific file path separator
     tmpdir = tempfile.gettempdir()  # Get the temporary directory for file storage
